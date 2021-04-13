@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: inline-flex;
+    flex-direction: row;
+}
+.container .item {
+    height: 200px;
+    width: 200px;
+    background: red;
+    margin-right: 5px;
+}
+
+.item {
+    order: 3;
+}
